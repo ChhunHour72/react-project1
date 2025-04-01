@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FormControl,InputLabel,Box, Select, MenuItem } from '@mui/material'
 import { useDispatch } from 'react-redux';
 import { handleCategoryChange, handleDifficultyChange, handleTypeChange } from '../redux/action';
+import SelectBox from "../components/SelectBox";
 function SelectBox(props) {
 
     const dispatch = useDispatch();
